@@ -7,8 +7,9 @@
 // Set your brand colors
 $blue-matano: #00A8E8;
 $blue-lagon: #007EA7;
-$brown: #757763;
-$beige-light: #D0D1CD;
+$brown: #222228;
+$orange:#ffd500fd;
+$beige-light: #eeecec;
 $dark-bulma: #000000;
 
 // Update Bulma's global variables
@@ -16,12 +17,14 @@ $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $blue-matano;
-$link: $blue-lagon;
+$link: $orange;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $dark-bulma;
+$navbar-background-color:$dark-bulma;
+$navbar-dropdown-background-color:$orange;
 $text: $beige-light;
 $control-border-width: 2px;
 $input-border-color: transparent;
@@ -31,14 +34,16 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/_all.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/icon.sass";
-@import "../node_modules/bulma/sass/elements/form.sass";
+// @import "../node_modules/bulma/sass/elements/title.sass";
+// @import "../node_modules/bulma/sass/elements/button.sass";
+// @import "../node_modules/bulma/sass/elements/container.sass";
+// @import "../node_modules/bulma/sass/elements/icon.sass";
+// @import "../node_modules/bulma/sass/elements/form.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 // @import "../node_modules/bulma/sass/form/shared.sass";
 // @import "../node_modules/bulma/sass/form/input-textarea.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/helpers/_all.sass";
 @import "../node_modules/bulma/sass/helpers/spacing.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
